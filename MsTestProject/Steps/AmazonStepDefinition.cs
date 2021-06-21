@@ -23,6 +23,7 @@ namespace MsTestProject.Steps
 
             driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             driver.Navigate().GoToUrl("https://www.amazon.in");
+            driver.FindElement(By.Id("twotabsearchtextbox")).SendKeys("IPhone");
             Thread.Sleep(2000);
             driver.Quit();
         }
