@@ -21,9 +21,10 @@ namespace MsTestProject.Steps
         public void GivenOpenAmazonUrlandCloseIt()
         {
 
-            driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
-            driver.Navigate().GoToUrl("https://www.amazon.in");
-            driver.FindElement(By.Id("twotabsearchtextbox")).SendKeys("IPhone");
+            driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://activityvue.gcu.edu/user/Arianna.SaenzOchoa#");           
+           
+           // driver.FindElement(By.Id("twotabsearchtextbox")).SendKeys("IPhone");
             Thread.Sleep(2000);
             driver.Quit();
         }

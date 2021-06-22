@@ -68,7 +68,6 @@ C:\Projects\MsTest\MsTestProject\bin\Debug\Newtonsoft.Json.xml
 C:\Projects\MsTest\MsTestProject\bin\Debug\nunit.framework.xml
 C:\Projects\MsTest\MsTestProject\bin\Debug\WebDriver.xml
 C:\Projects\MsTest\MsTestProject\bin\Debug\WebDriver.Support.xml
-C:\Projects\MsTest\MsTestProject\obj\Debug\MsTestProject.csprojAssemblyReference.cache
 C:\Projects\MsTest\MsTestProject\obj\Debug\MsTestProject.csproj.CoreCompileInputs.cache
 C:\Projects\MsTest\MsTestProject\obj\Debug\MsTestProject.csproj.CopyComplete
 C:\Projects\MsTest\MsTestProject\obj\Debug\MsTestProject.dll

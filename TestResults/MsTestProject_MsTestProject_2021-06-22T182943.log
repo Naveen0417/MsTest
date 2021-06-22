@@ -1,0 +1,69 @@
+﻿2021-06-22T18:29:43.8181182+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2021-06-22T18:29:43.8241097+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Projects\MsTest\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-22T18:29:43.9630523+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2021-06-22T18:29:43.9630523+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+2021-06-22T18:29:43.9630523+05:30;VSTestExecutionThread;Info;Profile: MsTestProject
+2021-06-22T18:29:54.2576161+05:30;Thread#13;Info;starting test run
+2021-06-22T18:29:54.2696064+05:30;Thread#13;Info;Discovering target: Default
+2021-06-22T18:29:54.2696064+05:30;Thread#13;Info;Discovering tests from assembly: C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MsTestProject/MsTestProject - 
+#1: Default - 
+#2: MsTestProject - 
+#3: Amazon - 
+#4: TC001 - TestAssembly:MsTestProject/Feature:Amazon/Scenario:TC001
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such alert
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 9.9944658 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such alert
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 7.8098136 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: unknown error: cannot determine loading status
+Thread#0:T:from disconnected: received Inspector.detached event
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 4.7549306 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of no

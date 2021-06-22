@@ -1,0 +1,85 @@
+﻿2021-06-22T18:40:37.7172771+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2021-06-22T18:40:37.7222737+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Projects\MsTest\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-22T18:40:37.8719778+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2021-06-22T18:40:37.8719778+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+2021-06-22T18:40:37.8719778+05:30;VSTestExecutionThread;Info;Profile: MsTestProject
+2021-06-22T18:40:49.0145886+05:30;Thread#13;Info;starting test run
+2021-06-22T18:40:49.0245588+05:30;Thread#13;Info;Discovering target: Default
+2021-06-22T18:40:49.0245588+05:30;Thread#13;Info;Discovering tests from assembly: C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MsTestProject/MsTestProject - 
+#1: Default - 
+#2: MsTestProject - 
+#3: Amazon - 
+#4: TC001 - TestAssembly:MsTestProject/Feature:Amazon/Scenario:TC001
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such alert
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 13.1226508 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such alert
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 11.763128 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such alert
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 10.8687811 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-22T18:41:25.4595295+05:30;Thread#13;Info;test run finished
+2021-06-22T18:41:25.4595295+05:30;Thread#13;Info;publishing test results
+2021-06-22T18:41:25.4735219+05:30;Thread#13;Info;test results published
+2021-06-22T18:41:25.4745200+05:30;Thread#13;Info;generating reports
+2021-06-22T18:41:25.4825147+05:30;Thread#13;Info;creating 1 report(s)
+2021-06-22T18:41:25.4825147+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2021-06-22T18:41:28.8804500+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2021-06-22T18:41:28.8844483+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-06-22T18:41:28.8844483+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Projects\MsTest\TestResults\MsTestProject_MsTestProject_2021-06-22T184037.html'
+2021-06-22T18:41:28.9499717+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Projects\MsTest\TestResults\MsTestProject_MsTestProject_2021-06-22T184037.log

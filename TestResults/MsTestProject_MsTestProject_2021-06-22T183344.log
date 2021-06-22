@@ -1,0 +1,88 @@
+﻿2021-06-22T18:33:44.3793222+05:30;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.5 execution started
+2021-06-22T18:33:44.3843169+05:30;VSTestExecutionThread;Info;TestAdapter Location: C:\Projects\MsTest\packages\SpecRun.Runner.1.8.5\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2021-06-22T18:33:44.5338139+05:30;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2021-06-22T18:33:44.5338139+05:30;VSTestExecutionThread;Info;SpecRun: running tests in C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+2021-06-22T18:33:44.5348147+05:30;VSTestExecutionThread;Info;Profile: MsTestProject
+2021-06-22T18:33:51.6371700+05:30;Thread#13;Info;starting test run
+2021-06-22T18:33:51.6483252+05:30;Thread#13;Info;Discovering target: Default
+2021-06-22T18:33:51.6483252+05:30;Thread#13;Info;Discovering tests from assembly: C:\Projects\MsTest\MsTestProject\bin\Debug\MsTestProject.dll
+Appdomain Disposed
+Test Suite Dump
+#0: MsTestProject/MsTestProject - 
+#1: Default - 
+#2: MsTestProject - 
+#3: Amazon - 
+#4: TC001 - TestAssembly:MsTestProject/Feature:Amazon/Scenario:TC001
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for MsTestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: no such window: target window already closed
+Thread#0:T:from unknown error: web view not found
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 52.3076694 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: unknown error: cannot determine loading status
+Thread#0:T:from disconnected: received Inspector.detached event
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 3.3731176 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given open Amazon urland close it
+Thread#0:T:error: unknown error: cannot determine loading status
+Thread#0:T:from disconnected: received Inspector.detached event
+Thread#0:T:  (Session info: chrome=91.0.4472.106)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 2.9512082 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+2021-06-22T18:34:51.0435872+05:30;Thread#13;Info;test run finished
+2021-06-22T18:34:51.0445869+05:30;Thread#13;Info;publishing test results
+2021-06-22T18:34:51.0655749+05:30;Thread#13;Info;test results published
+2021-06-22T18:34:51.0655749+05:30;Thread#13;Info;generating reports
+2021-06-22T18:34:51.0785674+05:30;Thread#13;Info;creating 1 report(s)
+2021-06-22T18:34:51.0795672+05:30;Thread#13;Info;generate Report ReportTemplate.cshtml
+2021-06-22T18:34:53.8209952+05:30;Thread#13;Info;reports generated
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
+2021-06-22T18:34:53.8269937+05:30;VSTestExecutionThread;Info;Adding attachments to VSTest
+2021-06-22T18:34:53.8279920+05:30;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Projects\MsTest\TestResults\MsTestProject_MsTestProject_2021-06-22T183344.html'
+2021-06-22T18:34:53.8699675+05:30;VSTestExecutionThread;Info;Log file: file:///C:\Projects\MsTest\TestResults\MsTestProject_MsTestProject_2021-06-22T183344.log
